@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  resources :product_orders
+  resources :stocks
+  resources :images
+  resources :products
+  resources :addresses
   resources :stores
   namespace :api do 
       namespace :v1 do
