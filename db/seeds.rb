@@ -55,49 +55,49 @@ address_10 = u10.build_address(street_address:Faker::Address.street_name, city: 
 address_10.save
 
 #orders
-order_u01_01 = u01.orders.build(order_number: 'A12345678', status: 'pending')
+order_u01_01 = u01.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u01_01.save
 
-order_u02_01 = u02.orders.build(order_number: 'A00000001', status: 'pending')
+order_u02_01 = u02.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u02_01.save
 
-order_u02_02 = u02.orders.build(order_number: 'A00000002', status: 'pending')
+order_u02_02 = u02.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u02_02.save
 
-order_u03_01 = u03.orders.build(order_number: 'A00000001', status: 'pending')
+order_u03_01 = u03.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u03_01.save
 
-order_u03_02 = u03.orders.build(order_number: 'A00000002', status: 'pending')
+order_u03_02 = u03.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u03_02.save
 
-order_u03_03 = u03.orders.build(order_number: 'A00000002', status: 'pending')
+order_u03_03 = u03.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u03_03.save
 
-order_u04_01 = u04.orders.build(order_number: 'A00000001', status: 'pending')
+order_u04_01 = u04.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u04_01.save
 
-order_u04_02 = u04.orders.build(order_number: 'A00000002', status: 'pending')
+order_u04_02 = u04.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u04_02.save
 
-order_u04_03 = u04.orders.build(order_number: 'A00000002', status: 'pending')
+order_u04_03 = u04.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u04_03.save
 
-order_u04_04 = u04.orders.build(order_number: 'A00000002', status: 'pending')
+order_u04_04 = u04.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u04_04.save
 
-order_u05_01 = u05.orders.build(order_number: 'A00000001', status: 'pending')
+order_u05_01 = u05.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u05_01.save
 
-order_u05_02 = u05.orders.build(order_number: 'A00000002', status: 'pending')
+order_u05_02 = u05.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u05_02.save
 
-order_u05_03 = u05.orders.build(order_number: 'A00000002', status: 'pending')
+order_u05_03 = u05.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u05_03.save
 
-order_u05_04 = u05.orders.build(order_number: 'A00000002', status: 'pending')
+order_u05_04 = u05.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u05_04.save
 
-order_u05_05 = u05.orders.build(order_number: 'A00000002', status: 'pending')
+order_u05_05 = u05.orders.build(order_number: Faker::Code.asin, status: 'pending')
 order_u05_05.save
 
 #stores
@@ -125,8 +125,17 @@ Store.create(name: 'Outerknown', description: 'Looking for durable classics that
 #products
 
 s01 = Store.find_by id:1
+s02 = Store.find_by id:2
+s03 = Store.find_by id:3
+s04 = Store.find_by id:4
+s05 = Store.find_by id:5
+s06 = Store.find_by id:6
+s07 = Store.find_by id:7
+s08 = Store.find_by id:8
+s09 = Store.find_by id:9
+s10 = Store.find_by id:10
 
-s01p01 = s01.products.build(uid: 'asdf', name: 'test product', category: 'clothes', sub_category: 'jeans', description: 'test jeans', gender: 'm', age_group: 'adult')
+s01p01 = s01.products.build(uid: Faker::Code.ean, name: 'test product', category: 'clothes', sub_category: 'jeans', description: 'test jeans', gender: 'm', age_group: 'adult', price_cents: 10000)
 s01p01.save
 
 #images
@@ -144,4 +153,4 @@ s01p01stk01.save
 s01.admins << u01
 
 #product_orders
-p01.orders << order_u1_01
+p01.orders << order_u01_01

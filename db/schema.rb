@@ -60,6 +60,7 @@ ActiveRecord::Schema.define(version: 2021_11_26_234404) do
     t.string "description"
     t.string "gender"
     t.string "age_group"
+    t.integer "price_cents"
     t.integer "store_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
