@@ -391,121 +391,121 @@ s01p05img01.save
 s01p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s01p06img01.save
 
-s02p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s02p01img01 = p07.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s02p01img01.save
-s02p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s02p02img01 = p08.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s02p02img01.save
-s02p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s02p03img01 = p09.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s02p03img01.save
-s02p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s02p04img01 = p10.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s02p04img01.save
-s02p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s02p05img01 = p11.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s02p05img01.save
-s02p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s02p06img01 = p12.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s02p06img01.save
 
-s03p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s03p01img01 = p13.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s03p01img01.save
-s03p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s03p02img01 = p14.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s03p02img01.save
-s03p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s03p03img01 = p15.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s03p03img01.save
-s03p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s03p04img01 = p16.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s03p04img01.save
-s03p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s03p05img01 = p17.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s03p05img01.save
-s03p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s03p06img01 = p18.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s03p06img01.save
 
-s04p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s04p01img01 = p19.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s04p01img01.save
-s04p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s04p02img01 = p20.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s04p02img01.save
-s04p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s04p03img01 = p21.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s04p03img01.save
-s04p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s04p04img01 = p22.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s04p04img01.save
-s04p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s04p05img01 = p23.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s04p05img01.save
-s04p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s04p06img01 = p24.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s04p06img01.save
 
-s05p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s05p01img01 = p25.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s05p01img01.save
-s05p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s05p02img01 = p26.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s05p02img01.save
-s05p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s05p03img01 = p27.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s05p03img01.save
-s05p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s05p04img01 = p28.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s05p04img01.save
-s05p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s05p05img01 = p29.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s05p05img01.save
-s05p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s05p06img01 = p30.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s05p06img01.save
 
-s06p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s06p01img01 = p31.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s06p01img01.save
-s06p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s06p02img01 = p32.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s06p02img01.save
-s06p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s06p03img01 = p33.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s06p03img01.save
-s06p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s06p04img01 = p34.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s06p04img01.save
-s06p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s06p05img01 = p35.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s06p05img01.save
-s06p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s06p06img01 = p36.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s06p06img01.save
 
-s07p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s07p01img01 = p37.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s07p01img01.save
-s07p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s07p02img01 = p38.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s07p02img01.save
-s07p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s07p03img01 = p39.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s07p03img01.save
-s07p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s07p04img01 = p40.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s07p04img01.save
-s07p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s07p05img01 = p41.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s07p05img01.save
-s07p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s07p06img01 = p42.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s07p06img01.save
 
-s08p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s08p01img01 = p43.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s08p01img01.save
-s08p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s08p02img01 = p44.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s08p02img01.save
-s08p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s08p03img01 = p45.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s08p03img01.save
-s08p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s08p04img01 = p46.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s08p04img01.save
-s08p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s08p05img01 = p47.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s08p05img01.save
-s08p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s08p06img01 = p48.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s08p06img01.save
 
-s09p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s09p01img01 = p49.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s09p01img01.save
-s09p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s09p02img01 = p50.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s09p02img01.save
-s09p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s09p03img01 = p51.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s09p03img01.save
-s09p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s09p04img01 = p52.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s09p04img01.save
-s09p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s09p05img01 = p53.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s09p05img01.save
-s09p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s09p06img01 = p54.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s09p06img01.save
 
-s10p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
+s10p01img01 = p55.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s10p01img01.save
-s10p02img01 = p02.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s10p02img01 = p56.images.build(colour: Faker::Color.color_name, img_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
 s10p02img01.save
-s10p03img01 = p03.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
+s10p03img01 = p57.images.build(colour: Faker::Color.color_name, img_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
 s10p03img01.save
-s10p04img01 = p04.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
+s10p04img01 = p58.images.build(colour: Faker::Color.color_name, img_url: 'https://www.painfulclothing.com/784-thickbox_default/hate-woman-tee.jpg')
 s10p04img01.save
-s10p05img01 = p05.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
+s10p05img01 = p59.images.build(colour: Faker::Color.color_name, img_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s10p05img01.save
-s10p06img01 = p06.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s10p06img01 = p60.images.build(colour: Faker::Color.color_name, img_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
 s10p06img01.save
 
 #stocks
@@ -533,6 +533,81 @@ s01p06stk01 = p06.stocks.build(colour: Faker::Color.color_name, size: 'm', amoun
 s01p06stk01.save
 s01p06stk02 = p06.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
 s01p06stk02.save
+
+s02p01stk01 = p07.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p01stk01.save
+s02p01stk02 = p07.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p01stk02.save
+s02p02stk01 = p08.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p02stk01.save
+s02p02stk02 = p08.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p02stk02.save
+s02p03stk01 = p09.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p03stk01.save
+s02p03stk02 = p09.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p03stk02.save
+s02p04stk01 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p04stk01.save
+s02p04stk02 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p04stk02.save
+s02p05stk01 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p05stk01.save
+s02p05stk02 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p05stk02.save
+s02p06stk01 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p06stk01.save
+s02p06stk02 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p06stk02.save
+
+s03p01stk01 = p13.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p01stk01.save
+s03p01stk02 = p13.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p01stk02.save
+s03p02stk01 = p14.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p02stk01.save
+s03p02stk02 = p14.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p02stk02.save
+s03p03stk01 = p15.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p03stk01.save
+s03p03stk02 = p15.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p03stk02.save
+s03p04stk01 = p16.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p04stk01.save
+s03p04stk02 = p16.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p04stk02.save
+s03p05stk01 = p17.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p05stk01.save
+s03p05stk02 = p17.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p05stk02.save
+s03p06stk01 = p18.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p06stk01.save
+s03p06stk02 = p18.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p06stk02.save
+
+s04p01stk01 = p19.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p01stk01.save
+s04p01stk02 = p19.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p01stk02.save
+s04p02stk01 = p20.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p02stk01.save
+s04p02stk02 = p20.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p02stk02.save
+s04p03stk01 = p21.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p03stk01.save
+s04p03stk02 = p21.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p03stk02.save
+s04p04stk01 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p04stk01.save
+s04p04stk02 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p04stk02.save
+s04p05stk01 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p05stk01.save
+s04p05stk02 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p05stk02.save
+s04p06stk01 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p06stk01.save
+s04p06stk02 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p06stk02.save
 
 #store_admins
 s01.admins << u01
