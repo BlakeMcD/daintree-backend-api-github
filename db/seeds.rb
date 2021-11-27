@@ -323,60 +323,60 @@ p03 = s01.products.find_by id:3
 p04 = s01.products.find_by id:4
 p05 = s01.products.find_by id:5
 p06 = s01.products.find_by id:6
-p07 = s02.products.find_by id:1
-p08 = s02.products.find_by id:2
-p09 = s02.products.find_by id:3
-p10 = s02.products.find_by id:4
-p11 = s02.products.find_by id:5
-p12 = s02.products.find_by id:6
-p13 = s03.products.find_by id:1
-p14 = s03.products.find_by id:2
-p15 = s03.products.find_by id:3
-p16 = s03.products.find_by id:4
-p17 = s03.products.find_by id:5
-p18 = s03.products.find_by id:6
-p19 = s04.products.find_by id:1
-p20 = s04.products.find_by id:2
-p21 = s04.products.find_by id:3
-p22 = s04.products.find_by id:4
-p23 = s04.products.find_by id:5
-p24 = s04.products.find_by id:6
-p25 = s05.products.find_by id:1
-p26 = s05.products.find_by id:2
-p27 = s05.products.find_by id:3
-p28 = s05.products.find_by id:4
-p29 = s05.products.find_by id:5
-p30 = s05.products.find_by id:6
-p31 = s06.products.find_by id:1
-p32 = s06.products.find_by id:2
-p33 = s06.products.find_by id:3
-p34 = s06.products.find_by id:4
-p35 = s06.products.find_by id:5
-p36 = s06.products.find_by id:6
-p37 = s07.products.find_by id:1
-p38 = s07.products.find_by id:2
-p39 = s07.products.find_by id:3
-p40 = s07.products.find_by id:4
-p41 = s07.products.find_by id:5
-p42 = s07.products.find_by id:6
-p43 = s08.products.find_by id:1
-p44 = s08.products.find_by id:2
-p45 = s08.products.find_by id:3
-p46 = s08.products.find_by id:4
-p47 = s08.products.find_by id:5
-p48 = s08.products.find_by id:6
-p49 = s09.products.find_by id:1
-p50 = s09.products.find_by id:2
-p51 = s09.products.find_by id:3
-p52 = s09.products.find_by id:4
-p53 = s09.products.find_by id:5
-p54 = s09.products.find_by id:6
-p55 = s10.products.find_by id:1
-p56 = s10.products.find_by id:2
-p57 = s10.products.find_by id:3
-p58 = s10.products.find_by id:4
-p59 = s10.products.find_by id:5
-p60 = s10.products.find_by id:6
+p07 = s02.products.find_by id:7
+p08 = s02.products.find_by id:8
+p09 = s02.products.find_by id:9
+p10 = s02.products.find_by id:10
+p11 = s02.products.find_by id:11
+p12 = s02.products.find_by id:12
+p13 = s03.products.find_by id:13
+p14 = s03.products.find_by id:14
+p15 = s03.products.find_by id:15
+p16 = s03.products.find_by id:16
+p17 = s03.products.find_by id:17
+p18 = s03.products.find_by id:18
+p19 = s04.products.find_by id:19
+p20 = s04.products.find_by id:20
+p21 = s04.products.find_by id:21
+p22 = s04.products.find_by id:22
+p23 = s04.products.find_by id:23
+p24 = s04.products.find_by id:24
+p25 = s05.products.find_by id:25
+p26 = s05.products.find_by id:26
+p27 = s05.products.find_by id:27
+p28 = s05.products.find_by id:28
+p29 = s05.products.find_by id:29
+p30 = s05.products.find_by id:30
+p31 = s06.products.find_by id:31
+p32 = s06.products.find_by id:32
+p33 = s06.products.find_by id:33
+p34 = s06.products.find_by id:34
+p35 = s06.products.find_by id:35
+p36 = s06.products.find_by id:36
+p37 = s07.products.find_by id:37
+p38 = s07.products.find_by id:38
+p39 = s07.products.find_by id:39
+p40 = s07.products.find_by id:40
+p41 = s07.products.find_by id:41
+p42 = s07.products.find_by id:42
+p43 = s08.products.find_by id:43
+p44 = s08.products.find_by id:44
+p45 = s08.products.find_by id:45
+p46 = s08.products.find_by id:46
+p47 = s08.products.find_by id:47
+p48 = s08.products.find_by id:48
+p49 = s09.products.find_by id:49
+p50 = s09.products.find_by id:50
+p51 = s09.products.find_by id:51
+p52 = s09.products.find_by id:52
+p53 = s09.products.find_by id:53
+p54 = s09.products.find_by id:54
+p55 = s10.products.find_by id:55
+p56 = s10.products.find_by id:56
+p57 = s10.products.find_by id:57
+p58 = s10.products.find_by id:58
+p59 = s10.products.find_by id:59
+p60 = s10.products.find_by id:60
 
 s01p01img01 = p01.images.build(colour: Faker::Color.color_name, img_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s01p01img01.save
@@ -509,254 +509,254 @@ s10p06img01 = p60.images.build(colour: Faker::Color.color_name, img_url: 'https:
 s10p06img01.save
 
 #stocks
-s01p01stk01 = p01.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p01stk01 = p01.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p01stk01.save
-s01p01stk02 = p01.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p01stk02 = p01.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p01stk02.save
-s01p02stk01 = p02.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p02stk01 = p02.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p02stk01.save
-s01p02stk02 = p02.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p02stk02 = p02.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p02stk02.save
-s01p03stk01 = p03.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p03stk01 = p03.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p03stk01.save
-s01p03stk02 = p03.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p03stk02 = p03.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p03stk02.save
-s01p04stk01 = p04.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p04stk01 = p04.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p04stk01.save
-s01p04stk02 = p04.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p04stk02 = p04.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p04stk02.save
-s01p05stk01 = p05.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p05stk01 = p05.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p05stk01.save
-s01p05stk02 = p05.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p05stk02 = p05.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p05stk02.save
-s01p06stk01 = p06.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p06stk01 = p06.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p06stk01.save
-s01p06stk02 = p06.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s01p06stk02 = p06.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s01p06stk02.save
 
-s02p01stk01 = p07.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p01stk01 = p07.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p01stk01.save
-s02p01stk02 = p07.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p01stk02 = p07.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p01stk02.save
-s02p02stk01 = p08.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p02stk01 = p08.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p02stk01.save
-s02p02stk02 = p08.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p02stk02 = p08.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p02stk02.save
-s02p03stk01 = p09.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p03stk01 = p09.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p03stk01.save
-s02p03stk02 = p09.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p03stk02 = p09.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p03stk02.save
-s02p04stk01 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p04stk01 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p04stk01.save
-s02p04stk02 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p04stk02 = p10.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p04stk02.save
-s02p05stk01 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p05stk01 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p05stk01.save
-s02p05stk02 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p05stk02 = p11.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p05stk02.save
-s02p06stk01 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p06stk01 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p06stk01.save
-s02p06stk02 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s02p06stk02 = p12.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s02p06stk02.save
 
-s03p01stk01 = p13.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p01stk01 = p13.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p01stk01.save
-s03p01stk02 = p13.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p01stk02 = p13.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p01stk02.save
-s03p02stk01 = p14.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p02stk01 = p14.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p02stk01.save
-s03p02stk02 = p14.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p02stk02 = p14.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p02stk02.save
-s03p03stk01 = p15.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p03stk01 = p15.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p03stk01.save
-s03p03stk02 = p15.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p03stk02 = p15.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p03stk02.save
-s03p04stk01 = p16.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p04stk01 = p16.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p04stk01.save
-s03p04stk02 = p16.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p04stk02 = p16.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p04stk02.save
-s03p05stk01 = p17.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p05stk01 = p17.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p05stk01.save
-s03p05stk02 = p17.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p05stk02 = p17.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p05stk02.save
-s03p06stk01 = p18.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p06stk01 = p18.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p06stk01.save
-s03p06stk02 = p18.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s03p06stk02 = p18.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s03p06stk02.save
 
-s04p01stk01 = p19.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p01stk01 = p19.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p01stk01.save
-s04p01stk02 = p19.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p01stk02 = p19.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p01stk02.save
-s04p02stk01 = p20.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p02stk01 = p20.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p02stk01.save
-s04p02stk02 = p20.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p02stk02 = p20.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p02stk02.save
-s04p03stk01 = p21.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p03stk01 = p21.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p03stk01.save
-s04p03stk02 = p21.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p03stk02 = p21.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p03stk02.save
-s04p04stk01 = p22.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p04stk01 = p22.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p04stk01.save
-s04p04stk02 = p22.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p04stk02 = p22.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p04stk02.save
-s04p05stk01 = p23.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p05stk01 = p23.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p05stk01.save
-s04p05stk02 = p23.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p05stk02 = p23.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p05stk02.save
-s04p06stk01 = p24.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p06stk01 = p24.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p06stk01.save
-s04p06stk02 = p24.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s04p06stk02 = p24.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s04p06stk02.save
 
-s05p01stk01 = p25.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p01stk01 = p25.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p01stk01.save
-s05p01stk02 = p25.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p01stk02 = p25.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p01stk02.save
-s05p02stk01 = p26.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p02stk01 = p26.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p02stk01.save
-s05p02stk02 = p26.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p02stk02 = p26.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p02stk02.save
-s05p03stk01 = p27.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p03stk01 = p27.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p03stk01.save
-s05p03stk02 = p27.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p03stk02 = p27.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p03stk02.save
-s05p04stk01 = p28.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p04stk01 = p28.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p04stk01.save
-s05p04stk02 = p28.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p04stk02 = p28.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p04stk02.save
-s05p05stk01 = p29.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p05stk01 = p29.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p05stk01.save
-s05p05stk02 = p29.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p05stk02 = p29.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p05stk02.save
-s05p06stk01 = p30.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p06stk01 = p30.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p06stk01.save
-s05p06stk02 = p30.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s05p06stk02 = p30.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s05p06stk02.save
 
-s06p01stk01 = p31.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p01stk01 = p31.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p01stk01.save
-s06p01stk02 = p31.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p01stk02 = p31.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p01stk02.save
-s06p02stk01 = p32.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p02stk01 = p32.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p02stk01.save
-s06p02stk02 = p32.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p02stk02 = p32.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p02stk02.save
-s06p03stk01 = p33.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p03stk01 = p33.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p03stk01.save
-s06p03stk02 = p33.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p03stk02 = p33.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p03stk02.save
-s06p04stk01 = p34.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p04stk01 = p34.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p04stk01.save
-s06p04stk02 = p34.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p04stk02 = p34.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p04stk02.save
-s06p05stk01 = p35.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p05stk01 = p35.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p05stk01.save
-s06p05stk02 = p35.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p05stk02 = p35.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p05stk02.save
-s06p06stk01 = p36.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p06stk01 = p36.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p06stk01.save
-s06p06stk02 = p36.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s06p06stk02 = p36.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s06p06stk02.save
 
-s07p01stk01 = p37.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p01stk01 = p37.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p01stk01.save
-s07p01stk02 = p37.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p01stk02 = p37.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p01stk02.save
-s07p02stk01 = p38.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p02stk01 = p38.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p02stk01.save
-s07p02stk02 = p38.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p02stk02 = p38.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p02stk02.save
-s07p03stk01 = p39.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p03stk01 = p39.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p03stk01.save
-s07p03stk02 = p39.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p03stk02 = p39.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p03stk02.save
-s07p04stk01 = p40.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p04stk01 = p40.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p04stk01.save
-s07p04stk02 = p40.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p04stk02 = p40.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p04stk02.save
-s07p05stk01 = p41.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p05stk01 = p41.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p05stk01.save
-s07p05stk02 = p41.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p05stk02 = p41.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p05stk02.save
-s07p06stk01 = p42.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p06stk01 = p42.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p06stk01.save
-s07p06stk02 = p42.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s07p06stk02 = p42.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s07p06stk02.save
 
-s08p01stk01 = p43.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p01stk01 = p43.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p01stk01.save
-s08p01stk02 = p43.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p01stk02 = p43.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p01stk02.save
-s08p02stk01 = p44.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p02stk01 = p44.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p02stk01.save
-s08p02stk02 = p44.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p02stk02 = p44.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p02stk02.save
-s08p03stk01 = p45.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p03stk01 = p45.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p03stk01.save
-s08p03stk02 = p45.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p03stk02 = p45.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p03stk02.save
-s08p04stk01 = p46.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p04stk01 = p46.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p04stk01.save
-s08p04stk02 = p46.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p04stk02 = p46.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p04stk02.save
-s08p05stk01 = p47.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p05stk01 = p47.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p05stk01.save
-s08p05stk02 = p47.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p05stk02 = p47.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p05stk02.save
-s08p06stk01 = p48.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p06stk01 = p48.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p06stk01.save
-s08p06stk02 = p48.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s08p06stk02 = p48.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s08p06stk02.save
 
-s09p01stk01 = p49.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p01stk01 = p49.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p01stk01.save
-s09p01stk02 = p49.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p01stk02 = p49.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p01stk02.save
-s09p02stk01 = p50.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p02stk01 = p50.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p02stk01.save
-s09p02stk02 = p50.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p02stk02 = p50.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p02stk02.save
-s09p03stk01 = p51.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p03stk01 = p51.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p03stk01.save
-s09p03stk02 = p51.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p03stk02 = p51.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p03stk02.save
-s09p04stk01 = p52.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p04stk01 = p52.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p04stk01.save
-s09p04stk02 = p52.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p04stk02 = p52.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p04stk02.save
-s09p05stk01 = p53.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p05stk01 = p53.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p05stk01.save
-s09p05stk02 = p53.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p05stk02 = p53.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p05stk02.save
-s09p06stk01 = p54.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p06stk01 = p54.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p06stk01.save
-s09p06stk02 = p54.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s09p06stk02 = p54.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s09p06stk02.save
 
-s10p01stk01 = p55.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p01stk01 = p55.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p01stk01.save
-s10p01stk02 = p55.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p01stk02 = p55.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p01stk02.save
-s10p02stk01 = p56.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p02stk01 = p56.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p02stk01.save
-s10p02stk02 = p56.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p02stk02 = p56.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p02stk02.save
-s10p03stk01 = p57.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p03stk01 = p57.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p03stk01.save
-s10p03stk02 = p57.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p03stk02 = p57.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p03stk02.save
-s10p04stk01 = p58.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p04stk01 = p58.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p04stk01.save
-s10p04stk02 = p58.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p04stk02 = p58.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p04stk02.save
-s10p05stk01 = p59.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p05stk01 = p59.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p05stk01.save
-s10p05stk02 = p59.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p05stk02 = p59.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p05stk02.save
-s10p06stk01 = p60.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p06stk01 = p60.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p06stk01.save
-s10p06stk02 = p60.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: Faker::Number.between(from: 5, to: 200))
+s10p06stk02 = p60.stocks.build(colour: Faker::Color.color_name, size: 'm', amount: 30)
 s10p06stk02.save
 
 #store_admins
