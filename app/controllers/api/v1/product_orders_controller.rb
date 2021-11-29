@@ -1,4 +1,4 @@
-class ProductOrdersController < ApplicationController
+class Api::V1::ProductOrdersController < ApplicationController
   before_action :set_product_order, only: [:show, :update, :destroy]
 
   # GET /product_orders
