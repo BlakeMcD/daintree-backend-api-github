@@ -5,7 +5,7 @@ class Api::V1::StoresController < ApplicationController
   def index
     @stores = Store.all
 
-    render json: @stores
+    render json: @stores, except: [:created_at, :updated_at]
   end
 
   # GET /stores/1
