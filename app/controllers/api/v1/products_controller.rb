@@ -3,9 +3,9 @@ class Api::V1::ProductsController < ApplicationController
 
   # GET /products
   def index
-    @products = Product.all
+    products = Product.all
 
-    render json: @products
+    render json: products, except: [:created_at, :updated_at]
   end
 
   # GET /products/1
