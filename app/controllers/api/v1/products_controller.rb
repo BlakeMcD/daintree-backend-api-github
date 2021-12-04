@@ -9,7 +9,8 @@ class Api::V1::ProductsController < ApplicationController
     render json: products, except: [:created_at, :updated_at], include: 
     [
       :stocks => {:except => [:created_at, :updated_at]}, 
-      :images => {:except => [:created_at, :updated_at]}
+      :images => {:except => [:created_at, :updated_at]}, 
+      :store => {:only => [:logo_url_square]}
     ]
   end
 
