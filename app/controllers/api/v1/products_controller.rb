@@ -5,8 +5,15 @@ class Api::V1::ProductsController < ApplicationController
   def index
     products = Product.all
 
-    render json: products, except: [:created_at, :updated_at]
+    # render json: products, except: [:created_at, :updated_at]
+    render json: products, except: [:created_at, :updated_at], include: 
+    [
+      :stocks => {:except => [:created_at, :updated_at]}, 
+      :images => {:except => [:created_at, :updated_at]}
+    ]
   end
+
+
 
   # GET /products/1
   def show

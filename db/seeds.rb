@@ -135,184 +135,184 @@ s08 = Store.find_by id:8
 s09 = Store.find_by id:9
 s10 = Store.find_by id:10
 
-s01p01 = s01.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 10000)
+s01p01 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 10000)
 s01p01.save
 
-s01p02 = s01.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 34576)
+s01p02 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 34576)
 s01p02.save
 
-s01p03 = s01.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 24565)
+s01p03 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 24565)
 s01p03.save
 
-s01p04 = s01.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 35675)
+s01p04 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 35675)
 s01p04.save
 
-s01p05 = s01.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7568)
+s01p05 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7568)
 s01p05.save
 
-s01p06 = s01.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5675)
+s01p06 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5675)
 s01p06.save
 
-s02p01 = s02.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6786)
+s02p01 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6786)
 s02p01.save
 
-s02p02 = s02.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7876)
+s02p02 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7876)
 s02p02.save
 
-s02p03 = s02.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6786)
+s02p03 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6786)
 s02p03.save
 
-s02p04 = s02.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7895)
+s02p04 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7895)
 s02p04.save
 
-s02p05 = s02.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7897)
+s02p05 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7897)
 s02p05.save
 
-s02p06 = s02.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7898)
+s02p06 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7898)
 s02p06.save
 
-s03p01 = s03.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7887)
+s03p01 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7887)
 s03p01.save
 
-s03p02 = s03.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7898)
+s03p02 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7898)
 s03p02.save
 
-s03p03 = s03.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 9789)
+s03p03 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 9789)
 s03p03.save
 
-s03p04 = s03.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 8797)
+s03p04 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 8797)
 s03p04.save
 
-s03p05 = s03.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 8989)
+s03p05 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 8989)
 s03p05.save
 
-s03p06 = s03.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 89789)
+s03p06 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 89789)
 s03p06.save
 
-s04p01 = s04.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7898)
+s04p01 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7898)
 s04p01.save
 
-s04p02 = s04.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5676)
+s04p02 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5676)
 s04p02.save
 
-s04p03 = s04.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6765)
+s04p03 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6765)
 s04p03.save
 
-s04p04 = s04.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5676)
+s04p04 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5676)
 s04p04.save
 
-s04p05 = s04.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 76756)
+s04p05 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 76756)
 s04p05.save
 
-s04p06 = s04.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5678)
+s04p06 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5678)
 s04p06.save
 
-s05p01 = s05.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6787)
+s05p01 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6787)
 s05p01.save
 
-s05p02 = s05.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6666)
+s05p02 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6666)
 s05p02.save
 
-s05p03 = s05.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7777)
+s05p03 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 7777)
 s05p03.save
 
-s05p04 = s05.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 8760)
+s05p04 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 8760)
 s05p04.save
 
-s05p05 = s05.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5678)
+s05p05 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5678)
 s05p05.save
 
-s05p06 = s05.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7878)
+s05p06 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7878)
 s05p06.save
 
-s06p01 = s06.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 8787)
+s06p01 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 8787)
 s06p01.save
 
-s06p02 = s06.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7878)
+s06p02 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7878)
 s06p02.save
 
-s06p03 = s06.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 8778)
+s06p03 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 8778)
 s06p03.save
 
-s06p04 = s06.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6776)
+s06p04 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6776)
 s06p04.save
 
-s06p05 = s06.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6556)
+s06p05 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6556)
 s06p05.save
 
-s06p06 = s06.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 45687)
+s06p06 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 45687)
 s06p06.save
 
-s07p01 = s07.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5675)
+s07p01 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5675)
 s07p01.save
 
-s07p02 = s07.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6776)
+s07p02 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6776)
 s07p02.save
 
-s07p03 = s07.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4545)
+s07p03 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4545)
 s07p03.save
 
-s07p04 = s07.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7655)
+s07p04 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7655)
 s07p04.save
 
-s07p05 = s07.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4567)
+s07p05 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4567)
 s07p05.save
 
-s07p06 = s07.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7869)
+s07p06 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 7869)
 s07p06.save
 
-s08p01 = s08.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 9876)
+s08p01 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 9876)
 s08p01.save
 
-s08p02 = s08.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6789)
+s08p02 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6789)
 s08p02.save
 
-s08p03 = s08.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6789)
+s08p03 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 6789)
 s08p03.save
 
-s08p04 = s08.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 3454)
+s08p04 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 3454)
 s08p04.save
 
-s08p05 = s08.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5678)
+s08p05 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5678)
 s08p05.save
 
-s08p06 = s08.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 15678)
+s08p06 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 15678)
 s08p06.save
 
-s09p01 = s09.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4567)
+s09p01 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4567)
 s09p01.save
 
-s09p02 = s09.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6457)
+s09p02 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 6457)
 s09p02.save
 
-s09p03 = s09.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 18765)
+s09p03 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 18765)
 s09p03.save
 
-s09p04 = s09.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 8756)
+s09p04 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 8756)
 s09p04.save
 
-s09p05 = s09.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 3456)
+s09p05 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 3456)
 s09p05.save
 
-s09p06 = s09.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5678)
+s09p06 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5678)
 s09p06.save
 
-s10p01 = s10.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5678)
+s10p01 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 5678)
 s10p01.save
 
-s10p02 = s10.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 4567)
+s10p02 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 4567)
 s10p02.save
 
-s10p03 = s10.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4585)
+s10p03 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4585)
 s10p03.save
 
-s10p04 = s10.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 4786)
+s10p04 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 4786)
 s10p04.save
 
-s10p05 = s10.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4567)
+s10p05 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', price_cents: 4567)
 s10p05.save
 
-s10p06 = s10.products.build(uid: Faker::Code.ean, name: Faker::Lorem.character, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5675)
+s10p06 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', price_cents: 5675)
 s10p06.save
 
 #images

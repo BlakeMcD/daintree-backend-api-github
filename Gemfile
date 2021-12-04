@@ -30,6 +30,7 @@ gem 'jwt' #helps you work with jwt (json web tokens), will generate a jwt for yo
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker', '~> 1.6', '>= 1.6.6'
 end
 
 group :development do
@@ -42,4 +43,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #faker gem
-gem 'faker', '~> 1.6', '>= 1.6.6'
+# gem 'faker', '~> 1.6', '>= 1.6.6'

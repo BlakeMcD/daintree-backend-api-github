@@ -12,6 +12,7 @@ Rails.application.routes.draw do
         resources :addresses
         resources :stocks
         resources :images
+
         post 'login', to: 'auth#create'
       end
   end
