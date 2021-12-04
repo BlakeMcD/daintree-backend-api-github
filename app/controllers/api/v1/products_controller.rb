@@ -10,7 +10,7 @@ class Api::V1::ProductsController < ApplicationController
     [
       :stocks => {:except => [:created_at, :updated_at]}, 
       :images => {:except => [:created_at, :updated_at]}, 
-      :store => {:only => [:logo_url_square]}
+      :store => {:only => [:name, :logo_url_square]}
     ]
   end
 
