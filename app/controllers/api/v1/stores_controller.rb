@@ -1,4 +1,5 @@
 class Api::V1::StoresController < ApplicationController
+  skip_before_action :authorized, only: [:index]
   before_action :set_store, only: [:show, :update, :destroy]
 
   # GET /stores

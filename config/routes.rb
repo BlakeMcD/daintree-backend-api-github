@@ -13,6 +13,9 @@ Rails.application.routes.draw do
         resources :stocks
         resources :images
 
+        # test
+        get 'login', to: 'auth#index'
+
         post 'login', to: 'auth#create'
       end
   end
