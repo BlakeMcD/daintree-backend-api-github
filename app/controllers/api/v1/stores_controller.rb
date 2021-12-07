@@ -1,5 +1,5 @@
 class Api::V1::StoresController < ApplicationController
-  skip_before_action :authorized, only: [:index]
+  skip_before_action :authorized, only: [:index, :create]
   before_action :set_store, only: [:show, :update, :destroy]
 
   # GET /stores
@@ -18,8 +18,9 @@ class Api::V1::StoresController < ApplicationController
   def create
     @store = Store.new(store_params)
 
+    #render json: @store, status: :created, location: @store - taking out location store fixed the rendering issue. 
     if @store.save
-      render json: @store, status: :created, location: @store
+      render json: @store, status: :created  
     else
       render json: @store.errors, status: :unprocessable_entity
     end

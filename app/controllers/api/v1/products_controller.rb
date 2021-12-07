@@ -1,5 +1,5 @@
 class Api::V1::ProductsController < ApplicationController
-  skip_before_action :authorized, only: [:index]
+  skip_before_action :authorized, only: [:index, :create]
   before_action :set_product, only: [:show, :update, :destroy]
 
   # GET /products
@@ -26,8 +26,9 @@ class Api::V1::ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
 
+    #original: render json: @product, status: :created, location: @product
     if @product.save
-      render json: @product, status: :created, location: @product
+      render json: @product, status: :created
     else
       render json: @product.errors, status: :unprocessable_entity
     end
