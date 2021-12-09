@@ -68,13 +68,13 @@ class Api::V1::ProductsController < ApplicationController
         images_attributes: [
           :img_colour, 
           :img_url
-          ], 
+        ], 
         stocks_attributes: [
           :colour, 
           :size, 
           :amount
         ]
 
-        )
+      )
     end
 end
