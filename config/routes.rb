@@ -10,8 +10,6 @@ Rails.application.routes.draw do
         resources :orders
         resources :product_orders
         resources :addresses
-        resources :stocks
-        resources :images
 
         post 'login', to: 'auth#create'
         post 'stores/create', to: 'stores#create'
