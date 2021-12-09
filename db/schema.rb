@@ -26,14 +26,6 @@ ActiveRecord::Schema.define(version: 2021_11_26_234404) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "images", force: :cascade do |t|
-    t.string "img_colour"
-    t.string "img_url"
-    t.integer "product_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "orders", force: :cascade do |t|
     t.string "order_number"
     t.integer "user_id"
@@ -60,17 +52,12 @@ ActiveRecord::Schema.define(version: 2021_11_26_234404) do
     t.string "description"
     t.string "gender"
     t.string "age_group"
-    t.integer "price_cents"
-    t.integer "store_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "stocks", force: :cascade do |t|
     t.string "colour"
     t.string "size"
-    t.integer "amount"
-    t.integer "product_id"
+    t.string "stock"
+    t.integer "price_cents"
+    t.string "image_url"
+    t.integer "store_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
