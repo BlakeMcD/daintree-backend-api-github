@@ -9,8 +9,6 @@ class Api::V1::ProductsController < ApplicationController
     # render json: products, except: [:created_at, :updated_at]
     render json: products, except: [:created_at, :updated_at], include: 
     [
-      :stocks => {:except => [:created_at, :updated_at]}, 
-      :images => {:except => [:created_at, :updated_at]}, 
       :store => {:only => [:name, :logo_url_square]}
     ]
   end
@@ -63,18 +61,13 @@ class Api::V1::ProductsController < ApplicationController
         :sub_category, 
         :description, 
         :gender, 
-        :age_group, 
+        :age_group,
+        :colour,
+        :size, 
+        :stock, 
+        :price_cents, 
+        :image_url, 
         :store_id,
-        images_attributes: [
-          :img_colour, 
-          :img_url
-        ], 
-        stocks_attributes: [
-          :colour, 
-          :size, 
-          :amount
-        ]
-
       )
     end
 end
