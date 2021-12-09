@@ -67,7 +67,7 @@ class Api::V1::ProductsController < ApplicationController
         :stock, 
         :price_cents, 
         :image_url, 
-        :store_id,
+        :store_id
       )
     end
 end

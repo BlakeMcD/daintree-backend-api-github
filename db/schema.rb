@@ -54,7 +54,7 @@ ActiveRecord::Schema.define(version: 2021_11_26_234404) do
     t.string "age_group"
     t.string "colour"
     t.string "size"
-    t.string "stock"
+    t.integer "stock"
     t.integer "price_cents"
     t.string "image_url"
     t.integer "store_id"

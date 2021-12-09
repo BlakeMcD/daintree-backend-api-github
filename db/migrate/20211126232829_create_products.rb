@@ -10,7 +10,7 @@ class CreateProducts < ActiveRecord::Migration[6.1]
       t.string :age_group
       t.string :colour
       t.string :size
-      t.string :stock
+      t.integer :stock
       t.integer :price_cents
       t.string :image_url
       t.integer :store_id
