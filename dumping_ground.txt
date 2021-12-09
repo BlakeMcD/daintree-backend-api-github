@@ -7,3 +7,5 @@ HOW I PUT NESTED ATTRIBUTES IN THE JSON
       :images => {:except => [:created_at, :updated_at]}, 
       :store => {:only => [:name, :logo_url_square]}
     ]
+
+Test
