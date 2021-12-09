@@ -6,4 +6,6 @@ class Product < ApplicationRecord
 
     has_many :product_orders
     has_many :orders, through: :product_orders
+
+    accepts_nested_attributes_for :images, :stocks
 end

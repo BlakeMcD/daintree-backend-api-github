@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_11_26_234404) do
   end
 
   create_table "images", force: :cascade do |t|
-    t.string "colour"
+    t.string "img_colour"
     t.string "img_url"
     t.integer "product_id"
     t.datetime "created_at", precision: 6, null: false
