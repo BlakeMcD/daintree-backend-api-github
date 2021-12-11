@@ -4,13 +4,24 @@ class Api::V1::ProductsController < ApplicationController
 
   # GET /products
   def index
-    products = Product.all
 
-    # render json: products, except: [:created_at, :updated_at]
-    render json: products, except: [:created_at, :updated_at], include: 
-    [
-      :store => {:only => [:name, :logo_url_square]}
-    ]
+    if params[:store_name] 
+      products = Product.all
+
+      # render json: products, except: [:created_at, :updated_at]
+      render json: products, except: [:created_at], include: 
+      [
+        :store => {:only => [:name, :logo_url_square]}
+      ]
+    else
+      products = Product.all
+
+      # render json: products, except: [:created_at, :updated_at]
+      render json: products, except: [:created_at, :updated_at], include: 
+      [
+        :store => {:only => [:name, :logo_url_square]}
+      ]
+    end
   end
 
 

@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-
- 
   
   namespace :api do 
       namespace :v1 do
         resources :users
-        resources :stores
+        resources :stores do
+          resources :products, only: [:index]
+        end
         resources :products
         resources :orders
         resources :product_orders
