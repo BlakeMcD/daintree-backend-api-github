@@ -1,7 +1,8 @@
 #users
 
 User.create(first_name: 'Blake', last_name: 'McDeezy', password: '12345', email: 'blake@mcdeezy.com', phone: '0412000000', system_admin: true)
-User.create(first_name: 'Store', last_name: 'Admin', password: '12345', email: 'store@admin.com', phone: '0412000000', system_admin: false)
+User.create(first_name: 'Pact', last_name: 'Admin', password: '12345', email: 'pact@admin.com', phone: '0412000000', system_admin: false)
+User.create(first_name: 'Patagonia', last_name: 'Admin', password: '12345', email: 'patagonia@admin.com', phone: '0412000000', system_admin: false)
 User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, password: '12345', email: Faker::Internet.email, phone: Faker::Number.number(10), system_admin: false)
 User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, password: '12345', email: Faker::Internet.email, phone: Faker::Number.number(10), system_admin: false)
 User.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, password: '12345', email: Faker::Internet.email, phone: Faker::Number.number(10), system_admin: false)
@@ -318,6 +319,8 @@ s10p06.save
 #store_admins
 s01.admins << u01
 s01.admins << u02
+s02.admins << u03
+
 
 #product_orders
 
