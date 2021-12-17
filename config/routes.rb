@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-
- 
   
   namespace :api do 
       namespace :v1 do
         resources :users
-        resources :stores
+        resources :stores do
+          resources :products, only: [:index]
+        end
         resources :products
         resources :orders
         resources :product_orders
@@ -14,6 +14,7 @@ Rails.application.routes.draw do
         post 'login', to: 'auth#create'
         post 'stores/create', to: 'stores#create'
         post 'products/create', to: 'products#create'
+        post 'users/create', to: 'users#create'
       end
   end
 
