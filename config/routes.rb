@@ -14,6 +14,7 @@ Rails.application.routes.draw do
         post 'login', to: 'auth#create'
         post 'stores/create', to: 'stores#create'
         post 'products/create', to: 'products#create'
+        post 'users/create', to: 'users#create'
       end
   end
 

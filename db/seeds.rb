@@ -113,7 +113,7 @@ Store.create(name: 'Quince', description: 'Quince sees sustainability “as the 
 
 Store.create(name: 'Reformation', description: 'This Los Angeles-based brand creates products only from sustainable and upcycled materials in a fair wage environment.', logo_url_square: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1427982342/wyammj0hzzqd7xv8o0t0.png', logo_url_landscape: 'https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2016/11/small_logo-720x200.png')
 
-Store.create(name: 'Vetta', description: 'Vetta chooses sustainable, recycled, and deadstock fabrics, and its LA-based partner factory gets 70 percent of its energy from solar power. ', logo_url_square: 'https://images.squarespace-cdn.com/content/v1/5c7a6d55523958a9b59aac74/1591015451252-JCSON1CPLMSKI50IR20D/vetta-logo.jpg?format=750w', logo_url_landscape: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/19e6a836310971.571757a1020d3.jpg')
+Store.create(name: 'Vetta', description: 'Vetta chooses sustainable, recycled, and deadstock fabrics, and its LA-based partner factory gets 70 percent of its energy from solar power. ', logo_url_square: 'https://i.pinimg.com/280x280_RS/2e/b5/4b/2eb54bc314d5248d9895e0260ba0061f.jpg', logo_url_landscape: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/19e6a836310971.571757a1020d3.jpg')
 
 Store.create(name: 'Tentree', description: 'Designed in Canada and ethically manufactured globally, tentree offers lifestyle and loungewear including cozy sweat sets, t-shirts, cardigans, dresses, and jackets made from sustainable fabrics', logo_url_square: 'https://i1.wp.com/real-leaders.com/wp-content/uploads/2020/11/Tentree-Logo.jpg?resize=360%2C360&ssl=1', logo_url_landscape: 'https://cdn.shopify.com/s/files/1/2341/3995/files/tentreeWordmarkLogo_RGB.jpg?height=628&pad_color=ffffff&v=1573065531&width=1200')
 
@@ -139,7 +139,7 @@ s10 = Store.find_by id:10
 s01p01 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s01p01.save
 
-s01p02 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s01p02 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s01p02.save
 
 s01p03 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -151,13 +151,13 @@ s01p04.save
 s01p05 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s01p05.save
 
-s01p06 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s01p06 = s01.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s01p06.save
 
 s02p01 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s02p01.save
 
-s02p02 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s02p02 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s02p02.save
 
 s02p03 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -169,13 +169,13 @@ s02p04.save
 s02p05 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s02p05.save
 
-s02p06 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s02p06 = s02.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s02p06.save
 
 s03p01 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s03p01.save
 
-s03p02 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s03p02 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s03p02.save
 
 s03p03 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -187,13 +187,13 @@ s03p04.save
 s03p05 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s03p05.save
 
-s03p06 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s03p06 = s03.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s03p06.save
 
 s04p01 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s04p01.save
 
-s04p02 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s04p02 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s04p02.save
 
 s04p03 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -205,13 +205,13 @@ s04p04.save
 s04p05 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s04p05.save
 
-s04p06 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s04p06 = s04.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s04p06.save
 
 s05p01 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s05p01.save
 
-s05p02 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s05p02 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s05p02.save
 
 s05p03 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -223,13 +223,13 @@ s05p04.save
 s05p05 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s05p05.save
 
-s05p06 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s05p06 = s05.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s05p06.save
 
 s06p01 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s06p01.save
 
-s06p02 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s06p02 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s06p02.save
 
 s06p03 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -241,13 +241,13 @@ s06p04.save
 s06p05 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s06p05.save
 
-s06p06 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s06p06 = s06.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s06p06.save
 
 s07p01 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s07p01.save
 
-s07p02 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s07p02 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s07p02.save
 
 s07p03 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -259,13 +259,13 @@ s07p04.save
 s07p05 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s07p05.save
 
-s07p06 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s07p06 = s07.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s07p06.save
 
 s08p01 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s08p01.save
 
-s08p02 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s08p02 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s08p02.save
 
 s08p03 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -277,13 +277,13 @@ s08p04.save
 s08p05 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s08p05.save
 
-s08p06 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s08p06 = s08.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s08p06.save
 
 s09p01 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s09p01.save
 
-s09p02 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s09p02 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s09p02.save
 
 s09p03 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -295,13 +295,13 @@ s09p04.save
 s09p05 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s09p05.save
 
-s09p06 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s09p06 = s09.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s09p06.save
 
 s10p01 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://connor.imgix.net/Connor/Products/C18DE105_DEN_1.png')
 s10p01.save
 
-s10p02 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg')
+s10p02 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jeans', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.tencel.com/images/assets/product-image/TENCEL_JEN7_7FAM_editorspick.png')
 s10p02.save
 
 s10p03 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'shirt', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://cdn.shopify.com/s/files/1/1779/6353/products/tallest-man-on-earth-guitar-tshirt-black-front_1024x1024.png?v=1494317466')
@@ -313,7 +313,7 @@ s10p04.save
 s10p05 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'm', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://ae01.alicdn.com/kf/Hbe699bdd0f904814aefeb078d00f54eeq/PU-Leather-Jacket-Men-Winter-Casual-Stand-Jackets-Man-Motorcycle-Vintage-Leather-Mens-Jacket-Coat-Chaqueta.jpg')
 s10p05.save
 
-s10p06 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG')
+s10p06 = s10.products.build(uid: Faker::Code.ean, name: Faker::Commerce.product_name, category: 'clothes', sub_category: 'jacket', description: Faker::Lorem.sentence, gender: 'f', age_group: 'adult', colour: Faker::Color.color_name, size: 's', stock: 30, price_cents: 10000, image_url: 'https://images.prod.airrobe.link/images/listing_images/images/3387761/grid/square_6__6_.png?1635299575')
 s10p06.save
 
 #store_admins

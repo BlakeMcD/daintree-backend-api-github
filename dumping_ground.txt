@@ -8,4 +8,6 @@ HOW I PUT NESTED ATTRIBUTES IN THE JSON
       :store => {:only => [:name, :logo_url_square]}
     ]
 
-Test
+Original Women's Jeans: 'https://image.made-in-china.com/2f0j00GFwQfiAagsgY/OEM-Brand-Light-Blue-Damaged-Distressed-Skinny-Denim-Jeans-Women.jpg'
+
+Original Women's Jacket: https://www.distressedjackets.com/image/cache//catalog/2020/oko-1000x1000.PNG

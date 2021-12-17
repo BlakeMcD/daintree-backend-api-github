@@ -9,7 +9,8 @@ class Api::V1::AuthController < ApplicationController
         # encode token comes from ApplicationController
         token = encode_token({ 
           user_id: @user.id, 
-          stores: @user.stores.map{|store| store.name}
+          stores: @user.stores.map{|store| store.name},
+          system_admin: @user.system_admin
         })
         render json: { user: @user, jwt: token }, status: :accepted
       else
